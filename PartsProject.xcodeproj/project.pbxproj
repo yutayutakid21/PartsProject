@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		7F4D6C8323FFDC9A00B1B094 /* HKTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4D6C8223FFDC9A00B1B094 /* HKTextField.swift */; };
 		7F4D6C8523FFDD5600B1B094 /* HKButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4D6C8423FFDD5600B1B094 /* HKButton.swift */; };
+		7F4D6C8723FFDE6100B1B094 /* CalcModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4D6C8623FFDE6100B1B094 /* CalcModel.swift */; };
 		A490E47923FE8312002F9568 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A490E47823FE8312002F9568 /* AppDelegate.swift */; };
 		A490E47B23FE8312002F9568 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A490E47A23FE8312002F9568 /* SceneDelegate.swift */; };
 		A490E47D23FE8312002F9568 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A490E47C23FE8312002F9568 /* ViewController.swift */; };
@@ -20,6 +21,7 @@
 /* Begin PBXFileReference section */
 		7F4D6C8223FFDC9A00B1B094 /* HKTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HKTextField.swift; sourceTree = "<group>"; };
 		7F4D6C8423FFDD5600B1B094 /* HKButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HKButton.swift; sourceTree = "<group>"; };
+		7F4D6C8623FFDE6100B1B094 /* CalcModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcModel.swift; sourceTree = "<group>"; };
 		A490E47523FE8312002F9568 /* PartsProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PartsProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A490E47823FE8312002F9568 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A490E47A23FE8312002F9568 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				A490E48123FE831D002F9568 /* Assets.xcassets */,
 				A490E48323FE831D002F9568 /* LaunchScreen.storyboard */,
 				A490E48623FE831D002F9568 /* Info.plist */,
+				7F4D6C8623FFDE6100B1B094 /* CalcModel.swift */,
 				7F4D6C8423FFDD5600B1B094 /* HKButton.swift */,
 				7F4D6C8223FFDC9A00B1B094 /* HKTextField.swift */,
 			);
@@ -144,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F4D6C8723FFDE6100B1B094 /* CalcModel.swift in Sources */,
 				7F4D6C8323FFDC9A00B1B094 /* HKTextField.swift in Sources */,
 				A490E47D23FE8312002F9568 /* ViewController.swift in Sources */,
 				A490E47923FE8312002F9568 /* AppDelegate.swift in Sources */,
