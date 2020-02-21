@@ -25,12 +25,7 @@ class ViewController: UIViewController {
     var result1 = UILabel()
     //引き算の結果
     var result2 = UILabel()
-    //割り算の結果
-    var result3 = UILabel()
-    //掛け算の結果
-    var result4 = UILabel()
-    
-    
+   
     //計算結果を出すボタン
     var actionButton = HKButton()
     
@@ -90,17 +85,7 @@ class ViewController: UIViewController {
             result2.topAnchor.constraint(equalTo: result1.topAnchor, constant: 80),
             result2.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20),
             result2.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20),
-            result2.heightAnchor.constraint(equalToConstant: 50),
-            
-            result3.topAnchor.constraint(equalTo: result2.topAnchor, constant: 80),
-            result3.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20),
-            result3.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20),
-            result3.heightAnchor.constraint(equalToConstant: 50),
-            
-            result4.topAnchor.constraint(equalTo: result3.topAnchor, constant: 80),
-            result4.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20),
-            result4.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20),
-            result4.heightAnchor.constraint(equalToConstant: 50),
+            result2.heightAnchor.constraint(equalToConstant: 50)
         ])
     }
     
@@ -130,6 +115,5 @@ class ViewController: UIViewController {
         
         result1.text = String(num1)
         result2.text = String(num2)
-        
     }
 }
